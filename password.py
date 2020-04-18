@@ -4,13 +4,13 @@ class Credentials:
     '''
     users_list = []
 
-    # def __init__(self, recognise, username, password):
-    #     '''
-    #     Initalizing the variables
-    #     '''
-        self.recognise = recognise
-        self.username = username
-        self.password = password
+    def __init__(self, recognise, username, password):
+        '''
+        Initalizing the variables
+        '''
+        # self.recognise = recognise
+        # self.username = username
+        # self.password = password
 
     def create_account(self):
         '''
