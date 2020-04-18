@@ -28,12 +28,12 @@ class TestCredentials(unittest.TestCase):
         self.assertEqual(self.new_user.username, "martin")
         self.assertEqual(self.new_user.password, "mwikia")
 
-    def test_create(self):
-        '''
-        Testing if the new credential is saved into the list
-        '''
-        self.new_user.create_account()
-        self.assertEqual(len(Credentials.users_list), 1)
+    # def test_create(self):
+    #     '''
+    #     Testing if the new credential is saved into the list
+    #     '''
+    #     self.new_user.create_account()
+    #     self.assertEqual(len(Credentials.users_list), 1)
 
     def test_authenticate(self):
         '''
