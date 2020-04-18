@@ -58,15 +58,15 @@ class UsersInfo:
                 if password.id == count:
                     return password
 
-    @classmethod
-    def existing_data(cls, number):
-        '''
-        Checks if info exists in the profile
-        '''
-        for data in cls.data_list:
-            if data.ident == number:
-                return True
-        return False
+    # @classmethod
+    # def existing_data(cls, number):
+    #     '''
+    #     Checks if info exists in the profile
+    #     '''
+    #     for data in cls.data_list:
+    #         if data.ident == number:
+    #             return True
+    #     return False
 
     @classmethod
     def copy_password(cls, number, count):
