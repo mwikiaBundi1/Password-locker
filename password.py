@@ -8,9 +8,9 @@ class Credentials:
         '''
         Initalizing the variables
         '''
-        # self.recognise = recognise
-        # self.username = username
-        # self.password = password
+        self.recognise = recognise
+        self.username = username
+        self.password = password
 
     def create_account(self):
         '''
