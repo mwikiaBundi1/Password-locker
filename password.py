@@ -42,11 +42,11 @@ class UsersInfo:
         self.website = website
         self.web_pass = web_pass
 
-    # def add_password(self):
-    #     '''
-    #     creating a method that creates the username and password
-    #     '''
-    #     UsersInfo.data_list.append(self)
+    def add_password(self):
+        '''
+        creating a method that creates the username and password
+        '''
+        UsersInfo.data_list.append(self)
 
     @classmethod
     def display_data(cls, number, count):
