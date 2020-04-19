@@ -1,7 +1,7 @@
 import string
 import random
 import time
-# from password import Credentials, UsersInfo
+from password import Credentials, UsersInfo
 
 
 def new_account(id, username, password):
